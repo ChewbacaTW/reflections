@@ -1,0 +1,23 @@
+Q1: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A: Viewing the diff between the two files made it much easier to debug because it narrowed down the amount of extraneous code that you have to look at.
+
+Q2: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A: Having easy access to the history of a file is useful because you can try new things without fear of losing a stable version of the code.
+
+Q3: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+A: The pro's are that it leaves the choice in the hands of the coder to decide how granular to make the commits and that the commits will most likely happen after a 
+successful build instead of in the middle of development.  The con's are that if 2 people are working in the same environment without communicating they may very well 
+begin stepping on each others toes before one realizes that they are messing with someone else's current development work.
+
+Q4: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A: Because particular document files will most likely not be related to files in other documents while changes in certain code files will need to be collated with other files.
+
+Q5: How can you use the commands git log and git diff to view the history of files?
+A: You can use the log command to view the different revision numbers and descriptions to determine, based upon functionality, which revisions to compare and then you can 
+use the diff command to compare the change in code.
+
+Q6: How might using version control make you more confident to make changes that could break something?
+A: it would allow you to experiment with things that might not work because it allows you to go back easily without the possibility of forgetting something.
+
+Q7: Now that you have your workspace set up, what do you want to try using Git for?
+I would like to try using it for website projects as well as personal projects.
