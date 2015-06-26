@@ -1,4 +1,6 @@
-Q1:What happens when you initialize a repository? Why do you need to do it?
-A:When you initialize a git repository you tell git to start keeping track of changes to the folder from that point on, and you need to initialize a 
+Q1: What happens when you initialize a repository? Why do you need to do it?
+A: When you initialize a git repository you tell git to start keeping track of changes to the folder from that point on, and you need to initialize a 
 repository in order to track things using git.
 
+Q2: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: The staging area is a place where you can pre-load your changes before you commit so that you have the control to define what a "logical change" is.
