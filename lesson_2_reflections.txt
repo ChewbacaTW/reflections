@@ -4,3 +4,16 @@ repository in order to track things using git.
 
 Q2: How is the staging area different from the working directory and the repository? What value do you think it offers?
 A: The staging area is a place where you can pre-load your changes before you commit so that you have the control to define what a "logical change" is.
+
+Q3: How can you use the staging area to make sure you have one commit per logical change?
+A: YOu can use git diff --staging to determine if the changes in staging make sense to you before you commit them.
+
+Q4: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: Branches help you keep your code organized by allowing you to experiment with the code without molesting the original code that may be a stable version 
+that is being used.
+
+Q5: How do the diagrams help you visualize the branch structure?
+A: They help you keep track of which branches are from the trunk and where or if they are part of another branch.
+
+Q6: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: The pros are that it makes merging branches generally easier but that it makes conflict resolution and issue sometimes.
